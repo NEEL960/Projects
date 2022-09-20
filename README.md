@@ -1,2 +1,2 @@
-# UI-UX-design
+# Projects
 Case study of ecommerce app 
