@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon" href="Images/favicon (1).ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b1af6d17ba.js" crossorigin="anonymous"></script>
+    
+   
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/Logo.png" alt="Logo" class="logo">
+            
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Enterpreneur</p>
+            <h1>Hey, I'm <span>Neel</span> Gabani</h1>
+        </div>
+    </div>
+<!----------about me------ --> 
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1"><img src="Images/photo.png" alt="none"></div>
+            <div class="about-col2">
+                <h1 class="sub-title">About me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus itaque animi pariatur maxime nobis aperiam laudantium cumque numquam velit ea eligendi adipisci, neque sint nesciunt libero ullam. Fuga, facere eius.</p>
+
+                <div class="tab-title">
+                    <p class="tab-links active-link " onclick="opentab('skills',this)">Skills</p>
+                    <p class="tab-links" onclick="opentab('experince',this)">Experince</p>
+                    <p class="tab-links" onclick="opentab('education',this)">Education</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills" >
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web&App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Video Editing</span><br>Editing the videos</li>
+                
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experince">
+                    <ul>
+                        <li><span>July- Current</span><br>Mood Indigo Squad Member</li>
+                        <li><span>Mar - Current</span><br>Graphic Designer</li>
+                        <li><span>Feb - July</span><br>AIESEC in Mumbai</li>
+                
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2025</span><br>BTech from DJSCE in CE</li>
+                        <li><span>2021</span><br>12th Completed</li>
+                        <li><span>2019</span><br>10th Completed</li>
+                
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!----------services------ -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, vero. Voluptatibus officia sed architecto illo soluta harum. Quo alias beatae esse, dolorem est ullam incidunt cum veniam, dolor, sint rem.</p>
+                <a href="a">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, vero. Voluptatibus officia sed architecto illo soluta harum. Quo alias beatae esse, dolorem est ullam incidunt cum veniam, dolor, sint rem.</p>
+                <a href="a">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-video"></i>
+                <h2>Video Editing</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, vero. Voluptatibus officia sed architecto illo soluta harum. Quo alias beatae esse, dolorem est ullam incidunt cum veniam, dolor, sint rem.</p>
+                <a href="a">Learn More</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!----------portfolio------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work().png" alt="">
+                <div class="layer">
+                    <h3>E-commerce app</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nam, quod tempora suscipit exercitationem perferendis labore porro ratione inventore dolorum, rem ex. Sequi iure consectetur explicabo voluptate, alias consequatur incidunt!</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work(1).png" alt="">
+                <div class="layer">
+                    <h3>Shopping Website</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nam, quod tempora suscipit exercitationem perferendis labore porro ratione inventore dolorum, rem ex. Sequi iure consectetur explicabo voluptate, alias consequatur incidunt!</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work(2).png" alt="">
+                <div class="layer">
+                    <h3>Video Editing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nam, quod tempora suscipit exercitationem perferendis labore porro ratione inventore dolorum, rem ex. Sequi iure consectetur explicabo voluptate, alias consequatur incidunt!</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+           <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!----------contact------ -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>neelgabani24ng@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9920257681</p>
+                <div class="social-icon">
+                    <a href="https://www.instagram.com/neel_gabanii/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/neel-gabani-6a236021b/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                    <a href="Images/Neel Gabani @Resume .pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="java.js"></script>
+
+</body>
+</html>
+
